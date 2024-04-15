@@ -1,0 +1,9 @@
+.header-container{
+    display: flex;
+    justify-content: center;
+}
+.header-image{
+    height: 13rem;
+    width: 20rem;
+    margin-bottom: 1rem;
+}

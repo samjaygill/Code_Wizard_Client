@@ -1,0 +1,10 @@
+.score-container{
+    border: 1px solid #d8d8d8;
+    background-color: #e7e7e7;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+.score-no{
+    font-size: 20px;
+}

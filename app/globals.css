@@ -25,6 +25,42 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.page{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cw-container{
+  position: relative;
+  background-color: white;
+  color: black;
+  padding: 2rem 2rem 2rem 2rem;
+  border: 0.15rem solid grey;
+  border-radius: 1rem;
+  max-width: 45rem;
+  min-width: 45rem;
+  max-height: 45rem;
+  min-height: 45rem;
+}
+.score {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 2rem;
+}
+.skip {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 2rem;
+}
+.submit {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 2rem;
+}
 
 @layer utilities {
   .text-balance {
